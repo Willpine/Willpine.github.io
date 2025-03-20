@@ -22,7 +22,7 @@ export default function Home() {
           <Image
             width={500} height={500}
             src="/imgs/carreer.png"
-            alt="carreer"
+            alt="career"
           />
 
           <div className="titleContainer">Carreira</div>
