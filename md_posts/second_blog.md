@@ -12,3 +12,9 @@ date: '17/09/2024'
 ## Migração para NextJS
 
 ## Publicação
+
+### Método 1
+
+Gonna put a Gif here
+
+![scoop update all](/imgs/gifs/output.gif)
