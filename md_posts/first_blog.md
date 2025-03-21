@@ -3,7 +3,7 @@ title: 'Inalgurado o Blog'
 date: '14/09/2024'
 ---
 
-![Will Pensando](/imgs/methinking.png)
+![Will Pensando](/imgs/blogs/blog1-methinking.png)
 
 ## Posts para apenas uma pessoa
 
