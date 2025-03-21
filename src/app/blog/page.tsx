@@ -1,4 +1,5 @@
 
+import Btn_voltar from '@/components/general/Btn_voltar';
 import { getSortedPostData } from '../../utils/posts';
 import Link from 'next/link';
 
@@ -10,19 +11,20 @@ export default async function Blog() {
         <h1 className='titleContainer mt-4 mb-4'>Yuiti&apos;s Blog</h1>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
-              <li key={id}>
+            <li key={id}>
 
-                <div className='textContainer mt-2 mb-2'>
-                  <Link href={`/blog/${id}`}>
-                    <h3>{title}</h3>
-                    {date}
-                  </Link>
-                </div>
+              <div className='textContainer mt-2 mb-2'>
+                <Link href={`/blog/${id}`}>
+                  <h3>{title}</h3>
+                  {date}
+                </Link>
+              </div>
 
-              </li>
+            </li>
           ))}
         </ul>
       </section>
+      <Btn_voltar />
     </div>
   )
 };
