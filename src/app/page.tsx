@@ -21,7 +21,7 @@ export default function Home() {
         <div className="sectionContainer">
           <Image
             width={500} height={500}
-            src="/imgs/carreer.png"
+            src="/imgs/front_page/carreer.png"
             alt="carreer"
           />
 
@@ -81,19 +81,19 @@ export default function Home() {
             <Image
               width={500} height={500}
               // className="springIcon"
-              src="/imgs/spring.png"
+              src="/imgs/front_page/spring.png"
               alt="spring"
             />
             <Image
               width={500} height={500}
               // className="javaIcon"
-              src="/imgs/java.png"
+              src="/imgs/front_page/java.png"
               alt="java"
             />
             <Image
               width={500} height={500}
               className="linuxIcon"
-              src="/imgs/linux.png"
+              src="/imgs/front_page/linux.png"
               alt="tux"
             />
           </div>

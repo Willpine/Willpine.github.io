@@ -3,7 +3,7 @@ title: 'Como montei este site'
 date: '17/09/2024'
 ---
 
-![criando o website](../public/imgs/websitemaking.jpg) 
+![criando o website](/imgs/blogs/blog2-websitemaking.jpg) 
 
 ## Conceito
 
