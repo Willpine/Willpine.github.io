@@ -28,10 +28,13 @@ export default function Home() {
           <div className="titleContainer">Carreira</div>
           <div className="textContainer">
             <h3>Cubo Connect / 2019 -&gt; 2021</h3>
-            <p>QA / Dev - Desenvolvimento de APIs para Ambev e UNIMED</p>
+            <p>QA / Dev Jr - Projeto de APIs para Ambev e UNIMED</p>
             <br />
             <h3>Connectmed Gama / 2022 -&gt; presente</h3>
-            <p>Dev - Equipe de melhorias e bugs emergenciais</p>
+            <p>Dev Pl - Sustentação, melhorias e bugs emergenciais</p>
+            <br />
+            <h3>Avanade / 2024 -&gt; presente</h3>
+            <p>Dev Sr - Projetos de sistemas financeiros</p>
           </div>
         </div>
       </section>
@@ -48,7 +51,7 @@ export default function Home() {
           <div className="titleContainer">Sobre</div>
           <div className="textContainer">
             <p className="name">Nome: Willian Yuiti Motta Oshiro</p>
-            <p>Idade: 23 Estado civil: Solteiro</p>
+            <p>Idade: 24 Estado civil: União Estável</p>
             <br />
             <h3>Competências</h3>
             <p>
@@ -59,7 +62,7 @@ export default function Home() {
             <br />
             <h3>Metas</h3>
             <p>[ ] Tornar-se um dev internacional com meu inglês.</p>
-            <p>[ ] Dar um visual decente para este site.</p>
+            <p>[x] Dar um visual decente para este site.</p>
             <p>[ ] Produzir conteúdo para outros programadores.</p>
             <br />
             <h3>Hobbies</h3>
@@ -105,7 +108,7 @@ export default function Home() {
               <h3>Java</h3>
               <div className="skillContainer">
                 <div className="skill java">
-                  3 anos de Experiência com Spring Framework.
+                  5 anos de Experiência com Spring Framework.
                 </div>
               </div>
               <br />
@@ -126,13 +129,13 @@ export default function Home() {
               <h3>Linux</h3>
               <div className="skillContainer">
                 <div className="skill linux">
-                  4 anos de experiência com Arch Linux.
+                  5 anos de experiência com Arch Linux.
                 </div>
               </div>
               <br />
               <h3>Git</h3>
               <div className="skillContainer">
-                <div className="skill linux">3 anos de Experiência.</div>
+                <div className="skill linux">4 anos de Experiência.</div>
               </div>
               <br />
               <h3>Inglês - Fluente</h3>
