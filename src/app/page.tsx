@@ -45,7 +45,7 @@ export default function Home() {
         <div className="sectionContainer">
           <Image
             width={500} height={500}
-            src="/imgs/sobre.png"
+            src="/imgs/front_page/sobre.png"
             alt="carreer"
           />
           <div className="titleContainer">Sobre</div>

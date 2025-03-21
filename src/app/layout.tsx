@@ -48,6 +48,9 @@ export default function RootLayout({
               <Link href={"/"} className="">
                 Dev_Will
               </Link>
+              <Link href={"/blog"} className="">
+                Blog
+              </Link>
             </div>
           </div>
 

@@ -98,7 +98,8 @@ h3{
 }
 
 .navItem{
-  display: inline-grid;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ---------- Text Container ---------- */

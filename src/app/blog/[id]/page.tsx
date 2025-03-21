@@ -1,6 +1,7 @@
 import { getPostData, getSortedPostData } from '../../../utils/posts';
 import Markdown from 'react-markdown';
 import "../../../css/app/blog/blogpost/blogpost.css";
+import Btn_voltar from '@/components/general/Btn_voltar';
 
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
@@ -23,6 +24,7 @@ export default async function BlogPost({ params }: { params: { id: string } }) {
         <p className=''>
         </p>
       </section>
+      <Btn_voltar />
     </div>
   )
 };
