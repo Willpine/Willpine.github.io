@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={
-      ` ${geistSans.variable} 
+        ` ${geistSans.variable} 
         ${geistMono.variable}
         antialiased
         h-full
@@ -43,15 +43,13 @@ export default function RootLayout({
 
         <div className="layoutContainer">
 
-          <div className="navContainer">
+          <div className="navTitle">
             <div className="navItem">
               <Link href={"/"} className="">
-                Dev_Will Portfolio
+                Dev_Will
               </Link>
-            </div>
-            <div className="navItem">
-              <Link href="/blog" className="">
-                Blog (Under Construction🏗️)
+              <Link href={"/blog"} className="">
+                Blog
               </Link>
             </div>
           </div>
@@ -61,9 +59,11 @@ export default function RootLayout({
         </div>
 
         <footer>
-          <a href="https://br.linkedin.com/in/willian-yuiti-21138014b">LinkedIn</a>
-          <a href="https://github.com/Willpine/Willpine">Github</a>
-          <p>Yuiti Tecnologia Eirelli 2023</p>
+          <span>
+            <a href="https://br.linkedin.com/in/willian-yuiti-21138014b">LinkedIn</a>
+            <a href="https://github.com/Willpine/Willpine">Github</a>
+            <p>Yuiti Tecnologia Eirelli 2023</p>
+          </span>
         </footer>
 
       </body>
